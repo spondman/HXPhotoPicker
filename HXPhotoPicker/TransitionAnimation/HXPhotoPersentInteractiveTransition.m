@@ -194,7 +194,7 @@
     if (!fromVC.bottomView.userInteractionEnabled) {
         self.bgView.backgroundColor = [UIColor blackColor];
     }else {
-        if (fromVC.exteriorPreviewStyle == HXPhotoViewPreViewShowStyleDark) {
+        if (fromVC.exteriorPreviewStyle == HXPhotoViewPreViewShowStyleDark || fromVC.exteriorPreviewStyle == HXPhotoViewPreViewShowStyleSpond) {
             self.bgView.backgroundColor = [UIColor blackColor];
         }else {
             self.bgView.backgroundColor = [HXPhotoCommon photoCommon].isDark ? [UIColor blackColor] : fromVC.manager.configuration.previewPhotoViewBgColor;

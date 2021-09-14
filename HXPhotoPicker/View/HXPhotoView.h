@@ -15,7 +15,8 @@
 
 typedef NS_ENUM(NSUInteger, HXPhotoViewPreViewShowStyle) {
     HXPhotoViewPreViewShowStyleDefault, //!< 默认
-    HXPhotoViewPreViewShowStyleDark     //!< 暗黑，此样式下视频会有进度条
+    HXPhotoViewPreViewShowStyleDark,     //!< 暗黑，此样式下视频会有进度条
+    HXPhotoViewPreViewShowStyleSpond  //!< 暗黑，视频没有进度条
 };
 
 @interface HXPhotoView : UIView
